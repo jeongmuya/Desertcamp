@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // 화면을 구성하는 UIWindow 인스턴스 생성
         let window = UIWindow(windowScene: windowScene)
         // UIWindow의 시작 ViewController로 지정
-        window.rootViewController = ViewController()
+        window.rootViewController = TabBarViewController()
         // window 표시.
         self.window = window
         // makeKeyAndVisible() 메서드 호출
